@@ -1,26 +1,116 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[conference]{IEEEtran}
+\usepackage{enumitem}
 
-\title{Git CheatSheet}
-\author{Sahil Afrid Farookhi}
-\date{}
+\renewcommand{\thesection}{\arabic{section}}
+
+\newenvironment{gitcommands}{
+  \begin{enumerate}[label=\arabic*.,ref=\arabic*]
+}{
+  \end{enumerate}
+}
 
 \begin{document}
 
+\title{Git Commands}
+
+\author{}
+
 \maketitle
 
-\section*{Options}
-\
-\section*{High-level (porcelain) commands}
-\subsection*{Main porcelain commands}
-\subsection*{Ancillary Commands}
-\subsection*{Interacting with Others}
-\subsection*{Reset, restore and revert}
-\
-\section*{Low level (plumbing) commands}
-\subsection*{Manipulation commands}
-\subsection*{Interrogation commands}
-\subsection*{Syncing repositories}
-\subsection*{Internal helper commands}
+\section*{\begin{flushleft}\bfseries Setup and Configuration\end{flushleft}}
+\begin{gitcommands}
+  \item git
+  \item config
+  \item help
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Getting and Creating Projects\end{flushleft}}
+\begin{gitcommands}
+  \item init
+  \item clone
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Basic Snapshotting\end{flushleft}}
+\begin{gitcommands}
+  \item add
+  \item status
+  \item diff
+  \item commit
+  \item reset
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Branching and Merging\end{flushleft}}
+\begin{gitcommands}
+  \item branch
+  \item checkout
+  \item merge
+  \item log
+  \item stash
+  \item worktree
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Sharing and Updating\end{flushleft}}
+\begin{gitcommands}
+  \item fetch
+  \item pull
+  \item push
+  \item remote
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Inspection and Comparison\end{flushleft}}
+\begin{gitcommands}
+  \item show
+  \item log
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Patching\end{flushleft}}
+\begin{gitcommands}
+  \item apply
+  \item cherry-pick
+  \item rebase
+  \item revert
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Debugging\end{flushleft}}
+\begin{gitcommands}
+  \item grep
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Guides\end{flushleft}}
+\begin{gitcommands}
+  \item git ignore
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Email\end{flushleft}}
+\begin{gitcommands}
+  \item request-pull
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries External Systems\end{flushleft}}
+\begin{gitcommands}
+  \item svn
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Administration\end{flushleft}}
+\begin{gitcommands}
+  \item clean
+  \item filter-branch
+  \item archive
+  \item bundle
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Server Admin\end{flushleft}}
+\begin{gitcommands}
+  \item daemon
+  \item update-server-info
+\end{gitcommands}
+
+\section*{\begin{flushleft}\bfseries Plumbing Commands\end{flushleft}}
+\begin{gitcommands}
+  \item commit-tree
+  \item show-ref
+  \item update-index
+  \item revert
+\end{gitcommands}
 
 \end{document}
