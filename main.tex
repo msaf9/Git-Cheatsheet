@@ -1,5 +1,21 @@
 \documentclass[conference]{IEEEtran}
 \usepackage{enumitem}
+\usepackage{amsthm}
+\usepackage{setspace}
+\onehalfspacing 
+
+\newtheoremstyle{mystyle}
+  {}          % Space above
+  {}          % Space below
+  {\normalfont} % Body font
+  {}          % Indent amount
+  {\bfseries} % Theorem head font
+  {}          % Punctuation after theorem head
+  { }         % Space after theorem head
+  {}          % Theorem head spec (can be left empty, meaning 'normal')
+
+\theoremstyle{mystyle}
+\newtheorem*{definition}{}
 
 \renewcommand{\thesection}{\arabic{section}}
 
@@ -19,9 +35,20 @@
 
 \section*{\begin{flushleft}\bfseries Setup and Configuration\end{flushleft}}
 \begin{gitcommands}
-  \item git
-  \item config
-  \item help
+  \item git: git is a distributed version control system for code management.\\
+    Options: -v, -h, -P, -p\\ 
+    Usage: git add [file names]\\
+    git clone [git repository URL]
+    \vspace{8pt}
+  \item config: Helps in setting up the repository and global options.\\
+    Options: --replace-all, --get, --add\\
+    Usage: git config --global user.name [username]\\
+    git config --list
+    \vspace{8pt}
+  \item help: Provides help information about Git.\\
+    Options: -a, -c, -g\\
+    Usage: git help --all\\
+    git status --help
 \end{gitcommands}
 
 \section*{\begin{flushleft}\bfseries Getting and Creating Projects\end{flushleft}}
