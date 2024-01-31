@@ -91,8 +91,13 @@
 
 \section*{\begin{flushleft}\bfseries Inspection and Comparison\end{flushleft}}
 \begin{gitcommands}
-  \item show
-  \item log
+  \item show: shows one or more things [commits, tags. etc]\\
+  Options: --format=[oneline | short | medium | full, --pretty]\\
+  Usage: git show --oneline
+  \vspace{8pt}
+  \item log: provide commit info\\
+  Options: --source, --full-diff\\
+  Usage: git log
 \end{gitcommands}
 
 \section*{\begin{flushleft}\bfseries Patching\end{flushleft}}
