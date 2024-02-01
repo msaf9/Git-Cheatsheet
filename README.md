@@ -1,6 +1,18 @@
 <h1>Git Cheatsheet</h1>
+A cheatsheet to ease off the usage of git, a distributed version control system.
 
-# Motivation
+<h2> Table of Contents </h2>
+
+- [Introduction](#introduction)
+- [Motivation](#motivation)
+- [Tools](#tools)
+- [Project status](#project-status)
+- [Preview](#preview)
+- [License](#license)
+
+## Introduction
+
+## Motivation
 I created this cheatsheet for my references as it is hard to checkout on the git website or other resources. 
 
 # Preview
