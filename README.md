@@ -26,3 +26,4 @@ I created this cheatsheet for my references as it is hard to checkout on the git
 ## Project Status
 
 ## License
+[LICENSE](LICENSE)
