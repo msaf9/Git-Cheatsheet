@@ -23,7 +23,10 @@ I created this cheatsheet for my references as it is hard to checkout on the git
 ## Preview
 ![Git Cheatsheet](Git-Cheatsheet.png)
 
-[Download Git Cheatsheet](Git-Cheatsheet.pdf)
+<a href="Git-Cheatsheet.pdf" download="Git-Cheatsheet.pdf">
+  <button>Download Git Cheatsheet</button>
+</a>
+
 
 
 ## Project Status
