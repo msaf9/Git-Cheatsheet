@@ -21,7 +21,7 @@ I created this cheatsheet for my references as it is hard to checkout on the git
 - git
 
 ## Preview
-![Git Cheatsheet](main.png)
+![Git Cheatsheet](Git-Cheatsheet.png)
 
 ## Project Status
 
