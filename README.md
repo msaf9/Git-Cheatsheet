@@ -26,6 +26,7 @@ I created this cheatsheet for my references as it is hard to checkout on the git
 [Download Git Cheatsheet](Git-Cheatsheet.pdf)
 
 ## Project Status
+**In progress**
 
 ## License
 [LICENSE](LICENSE)
