@@ -11,6 +11,7 @@ A cheatsheet to ease off the usage of git, a distributed version control system.
 - [License](#license)
 
 ## Introduction
+Git is a distributed version control system used for code management. This repository is a git cheat sheet with some regularly used git commands.
 
 ## Motivation
 I created this cheatsheet for my references as it is hard to checkout on the git website or other resources. 
