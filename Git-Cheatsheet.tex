@@ -145,8 +145,12 @@
 
 \section*{\begin{flushleft}\bfseries Server Admin\end{flushleft}}
 \begin{gitcommands}
-  \item daemon
-  \item update-server-info
+  \item daemon: A git repository server.\\
+  Options: --export-all, --base-path\\
+  Usage: git daemon --export-all --base-path=.
+  \item update-server-info: To help dumb server update auxiliary info file.\\
+  Options: -f\\
+  Usage: git update-server-info
 \end{gitcommands}
 
 \section*{\begin{flushleft}\bfseries Plumbing Commands\end{flushleft}}
