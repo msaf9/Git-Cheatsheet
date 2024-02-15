@@ -8,6 +8,8 @@ A cheatsheet to ease off the usage of git, a distributed version control system.
 - [Tools](#tools)
 - [Project status](#project-status)
 - [Preview](#preview)
+- [Installation](#installation)
+    - [Get repository](#get-repository)
 - [License](#license)
 
 ## Introduction
@@ -28,6 +30,13 @@ I created this cheatsheet for my references as it is hard to checkout on the git
 
 ## Project Status
 **In progress**
+
+## Installation
+### Get repository
+```git
+git https://github.com/msaf9/git-cheatsheet.git
+cd git-cheatsheet
+```
 
 ## License
 [LICENSE](LICENSE)
