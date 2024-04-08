@@ -8,6 +8,7 @@ A cheatsheet to ease off the usage of git, a distributed version control system.
 - [Tools](#tools)
 - [Project status](#project-status)
 - [Preview](#preview)
+    - [List of Git Commands](#list-of-git-commands)
 - [Installation](#installation)
     - [Get repository](#get-repository)
 - [License](#license)
@@ -16,17 +17,18 @@ A cheatsheet to ease off the usage of git, a distributed version control system.
 Git is a distributed version control system used for code management. This repository is a git cheat sheet with some regularly used git commands.
 
 ## Motivation
-I created this cheatsheet for my references as it is hard to checkout on the git website or other resources. 
+I created this cheatsheet for my reference because it's difficult to find information in one place on the Git website or other resources.
 
 ## Tools
-- Latex
+- LaTex
 - Shell
 - git
 
 ## Preview
+### List of Git Commands
 ![Git Cheatsheet](Git-Cheatsheet.png)
 
-[Download Git Cheatsheet](Git-Cheatsheet.pdf)
+[Download the Git Cheatsheet for concise information, options, and usage guidelines](Git-Cheatsheet.pdf)
 
 ## Project Status
 **In progress**
