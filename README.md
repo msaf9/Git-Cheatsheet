@@ -41,4 +41,4 @@ cd git-cheatsheet
 ```
 
 ## License
-[LICENSE](LICENSE)
+[MIT LICENSE](LICENSE)
