@@ -72,9 +72,17 @@
   Options: -s, -v, --long, -b\\
   Usage: git status
   \vspace{8pt}
-  \item diff
-  \item commit
-  \item reset
+  \item diff: Display differences between commits, the working tree, or branches.\\
+  Options: --color, --[commit1] [commit2], --cached\\
+  Usage: git diff, git diff [commit1] [commit2], git diff --color
+  \vspace{8pt}
+  \item commit: Record changes to the repository.\\
+  Options: -m, -a, -v\\
+  Usage: git commit -m "[commit message]", git commit -am "[commit message]"
+  \vspace{8pt}
+  \item reset: Reset current HEAD to the specified state.\\
+  Options: --soft, --mixed, --hard\\
+  Usage: git reset --soft [commit], git reset --hard HEAD\^{}
 \end{gitcommands}
 
 \section*{\begin{flushleft}\bfseries Branching and Merging\end{flushleft}}
