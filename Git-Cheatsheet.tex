@@ -87,12 +87,29 @@
 
 \section*{\begin{flushleft}\bfseries Branching and Merging\end{flushleft}}
 \begin{gitcommands}
-  \item branch
-  \item checkout
-  \item merge
-  \item log
-  \item stash
-  \item worktree
+  \item branch: List, create, or delete branches.\\
+  Options: -r, -d, -m\\
+  Usage: git branch
+  \vspace{8pt}
+  \item checkout: Switch branches or restore working tree files.\\
+  Options: -b, -B, --force\\
+  Usage: git checkout [branch-name], git checkout -b [branch-name]
+  \vspace{8pt}
+  \item merge: Join two or more development histories together.\\
+  Options: --squash, --abort, --commit\\
+  Usage: git merge [branch-name] - merge a branch into current branch
+  \vspace{8pt}
+  \item log: Display commit logs.\\
+  Options: --oneline, --graph\\
+  Usage: git log, git log --oneline, git log --graph
+  \vspace{8pt}
+  \item stash: Stash changes in a dirty working directory away.\\
+  Options: save, list, pop, apply\\
+  Usage: git stash save, git stash list, git stash pop, git stash apply
+  \vspace{8pt}
+  \item worktree: Manage multiple working trees associated with a single Git repository.\\
+  Options: list, prune\\
+  Usage: git worktree list, git worktree prune
 \end{gitcommands}
 
 \section*{\begin{flushleft}\bfseries Sharing and Updating\end{flushleft}}
