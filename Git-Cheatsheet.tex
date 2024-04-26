@@ -144,10 +144,21 @@
 
 \section*{\begin{flushleft}\bfseries Patching\end{flushleft}}
 \begin{gitcommands}
-  \item apply
-  \item cherry-pick
-  \item rebase
-  \item revert
+  \item apply: To apply changes from a patch file to your working directory or index without committing them.\\
+  Options: --check, --index, --reverse\\
+  Usage: git apply [pathname.patch], git apply --check [pathname.patch]
+  \vspace{8pt}
+  \item cherry-pick: To apply the changes introduced by existing commits to the current branch. \\
+  Options: -e, -s, -x\\
+  Usage: git cherry-pick [commit-hash], git cherry-pick -e [commit-hash]
+  \vspace{8pt}
+  \item rebase: Command is used to reapply commits from one branch onto another branch.\\
+  Options: -i, -x, -p\\
+  Usage: git rebase [branch], git rebase -i [branch]
+  \vspace{8pt}
+  \item revert: To reverse the changes introduced by a specific commit or a range of commits.\\
+  Options: -n, -e, -s\\
+  Usage: git revert [commit-hash], git revert -n [commit-hash]
 \end{gitcommands}
 
 \section*{\begin{flushleft}\bfseries Debugging\end{flushleft}}
