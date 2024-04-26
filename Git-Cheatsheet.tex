@@ -208,10 +208,17 @@
 
 \section*{\begin{flushleft}\bfseries Plumbing Commands\end{flushleft}}
 \begin{gitcommands}
-  \item commit-tree
-  \item show-ref
-  \item update-index
-  \item revert
+  \item commit-tree: A low-level Git command used to create a new commit object from a tree object and a commit message.\\
+  Option: -p, -m, -F\\
+  Usage: git commit-tree [tree-id] -m ["Commit message"]
+  \vspace{8pt}
+  \item show-ref: To display the references (branches, tags, and other references) in the local repository along with their corresponding commit hashes.\\
+  Options: --head, --tag, --verify, --hash\\
+  Usage: git show-ref, git show-ref --heads, git show-ref --tags
+  \vspace{8pt}
+  \item update-index: Manipulate the index (also known as the staging area) directly.\\
+  Options: --add, --remove, --refresh\\
+  Usage: git update-index --add [file],  git update-index --remove [file]
 \end{gitcommands}
 
 \end{document}
