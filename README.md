@@ -31,7 +31,7 @@ I created this cheatsheet for my reference because it's difficult to find inform
 [Download the Git Cheatsheet for concise information, options, and usage guidelines](Git-Cheatsheet.pdf)
 
 ## Project Status
-**In progress**
+**Complete**
 
 ## Installation
 ### Get repository
