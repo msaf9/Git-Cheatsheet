@@ -190,10 +190,21 @@
 
 \section*{\begin{flushleft}\bfseries Administration\end{flushleft}}
 \begin{gitcommands}
-  \item clean
-  \item filter-branch
-  \item archive
-  \item bundle
+  \item clean: To remove untracked files from the working directory.\\
+  Options: -n, -f, -d, -x, -i\\
+  Usage: git clean -f, git clean -n, git clean -i
+  \vspace{8pt}
+  \item filter-branch: A powerful and versatile tool used to rewrite the commit history of a Git repository.\\
+  Options: --tree-filter, --commit-filter, --prune-empty\\
+  Usage: git filter-branch --tree-filter 'rm -f [file]' -- --all
+  \vspace{8pt}
+  \item archive: Create a tar or zip archive of the contents of a Git repository or a specific Git tree (commit or branch). \\
+  Options: --format=[format], --output=[file]\\
+  Usage: git archive --format=tar --output=archive.tar HEAD, git archive --format=zip --output=archive.zip <commit>
+  \vspace{8pt}
+  \item bundle: Create a binary file containing the contents of a Git repository. \\
+  Options: create [file], verify, unbundle [file]\\
+  Usage: git bundle create [repository.bundle] --all, git bundle verify [repository.bundle], git bundle unbundle [repository.bundle] /path
 \end{gitcommands}
 
 \section*{\begin{flushleft}\bfseries Server Admin\end{flushleft}}
