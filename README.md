@@ -26,7 +26,7 @@ I created this cheatsheet for my reference because it's difficult to find inform
 
 ## Preview
 ### List of Git Commands
-![Git Cheatsheet](Git-Cheatsheet.png)
+![Git Cheatsheet](git-cheatsheet-list.png)
 
 [Download the Git Cheatsheet for concise information, options, and usage guidelines](Git-Cheatsheet.pdf)
 
