@@ -20,9 +20,10 @@ Git is a distributed version control system used for code management. This repos
 I created this cheatsheet for my reference because it's difficult to find information in one place on the Git website or other resources.
 
 ## Tools
+- git
+- GitHub
 - LaTex
 - Shell
-- git
 
 ## Preview
 ### List of Git Commands
